@@ -11,11 +11,8 @@ public class TekSayiBulanProgram {
             if (k % 4== 0){
                 toplam+= k;
             }
-
-
-
-
-        }while(k % 2 ==0);
+        }
+        while(k % 2 ==0);
         System.out.println("Toplam : " + toplam);
 
 
