@@ -35,19 +35,12 @@ public class Match {
                 }
                     System.out.println(this.f1.name + " Saglik : " + this.f1.health);
                     System.out.println(this.f2.name + " Saglik : " + this.f2.health);
-
             }
 
             }else{
                 System.out.println("Sporcuların Sikletleri Uymuyor.!");
             }
         }
-
-
-
-
-
-
 
     boolean isCheck() {
         return ((this.f1.weight >= minWeight && this.f1.weight <= maxWeight) && (this.f2.weight >= minWeight && this.f2.weight <= maxWeight));
