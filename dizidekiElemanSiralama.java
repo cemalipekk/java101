@@ -20,6 +20,8 @@ public class dizidekiElemanSiralama {
                 }
             }
         }
+        // yukarıda ki kod yerine Arrays.sort metodu kullanılabilir
+        // Arrays.sort(array); gibi
         System.out.print("Siralama :");
         for (int i = 0; i < N; i++) {
             System.out.print("\t" +array[i]);
